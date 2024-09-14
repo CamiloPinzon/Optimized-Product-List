@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+.button {
+    padding: 10px 40px;
+    background-color: $light-blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $dark-blue;
+    }
+}

@@ -1,0 +1,23 @@
+@import "../../styles/_variables.scss";
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+
+    &__item {
+        background-color: $bone;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    &__name {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    &__price {
+        color: $dark-gray;
+    }
+}
